@@ -15,7 +15,7 @@ public class DBconnection {
 	public static void DBconnection() {
 		
 	try {
-		System.out.println("Genial, nos conectamos!!");
+		System.out.println("Genial, noss conectamos!!");
 		myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jardineria","root","Admin2016");
 	
 		myStamt= myConn.createStatement();
